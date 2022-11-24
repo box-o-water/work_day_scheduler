@@ -10,8 +10,6 @@ To view the deployed website, click [here](https://box-o-water.github.io/work_da
 
 TODO: Update link: To view the starter code, click [here](https://github.com/box-o-water/work_day_scheduler).
 
-![Web API Code Quiz](/assets/images/05-third-party-apis-homework-demo.gif)
-
 ## Current Status
 
 * **This application is a work in progress.** 
@@ -56,4 +54,4 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](/assets/images/05-third-party-apis-homework-demo.gif)
