@@ -1,9 +1,6 @@
 var now = dayjs().format("dddd, MMMM D, YYYY");
 $("#currentDay").text(now);
 
-var currentHour = dayjs().format("HH");
-console.log(currentHour);
-
 var time08 = document.getElementById("08");
 var time09 = document.getElementById("09");
 var time10 = document.getElementById("10");
@@ -20,6 +17,8 @@ var timesId = [time08.id, time09.id, time10.id, time11.id, time12.id, time13.id,
 
 // The timeIndicator function indicates which timeblocks are past, present, or future
 function timeIndicator() {
+    var currentHour = dayjs().format("HH");
+    console.log(currentHour);
     // console.log(timesId);
     // console.log(times);
     for (var i = 0; i < times.length; i++) {
@@ -48,7 +47,7 @@ $(document).ready(function() {
 
     for (var i = 0; i < timesId.length; i++) {
         // retrieve the time and event from local storage, populating the event text 
-        $(`#${timesId[i]} .description`).val(localStorage.getItem(`${timesId[i]}`));
+        $(`#${timesId[i]}00 .description`).val(localStorage.getItem(`${timesId[i]}00`));
     }
 
 });
