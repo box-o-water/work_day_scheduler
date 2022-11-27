@@ -35,7 +35,7 @@ function timeIndicator() {
 // This function saves and retrieves all events with local storage, once the document is loaded
 $(document).ready(function() {
     $('.saveBtn').on('click', function(e) {
-        e.stopImmediatePropagation()
+        e.preventDefault()
         // get the id of the parent
         var thisTime = $(this).parent().attr('id');
         // get the value of the sibling with a description id
