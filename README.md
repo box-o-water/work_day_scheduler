@@ -10,9 +10,12 @@ To view the deployed website, click [here](https://box-o-water.github.io/work_da
 
 To view the starter code, click [here](https://github.com/box-o-water/work_day_scheduler/tree/1797e74d607d71223ffb5b6e5cca32d63991b370).
 
+
+![preview](/assets/images/work_day_scheduler_preview.png)
+
 ## Current Status
 
-* **This application is a work in progress.** 
+* This application is fully deployed
 
 ## Our Task
 
