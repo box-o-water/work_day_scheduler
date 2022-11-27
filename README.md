@@ -8,7 +8,7 @@ See the [Acceptance Criteria](#acceptance-criteria).
 
 To view the deployed website, click [here](https://box-o-water.github.io/work_day_scheduler/).
 
-TODO: Update link: To view the starter code, click [here](https://github.com/box-o-water/work_day_scheduler).
+To view the starter code, click [here](https://github.com/box-o-water/work_day_scheduler/tree/1797e74d607d71223ffb5b6e5cca32d63991b370).
 
 ## Current Status
 
